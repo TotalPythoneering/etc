@@ -3,6 +3,9 @@ From forcing us to junk our non-broke computers to so many classic colorized con
 
 (i.e. From Mainframes to POSIX - the colors never left!)
 
+### Linux / WSL / ANSI Enabled O.S:
+![](https://github.com/TotalPythoneering/etc/blob/main/ansi/color_sets.png)
+
 ### Educational Escape (* npi)
 Today's console games & 'apps are a genre ... a handy go-to for educators? 🤠 
 
