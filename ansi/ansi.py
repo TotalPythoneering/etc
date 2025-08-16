@@ -13,6 +13,7 @@
 #
 # Source: https://github.com/TotalPythoneering/etc/tree/main/ansi
 # Author: https://ko-fi.com/Post/Colorizing-Your-App--T-U-I-Style-C0C31JKS47
+# Author: https://ko-fi.com/post/If-you-had-to-write-one-program-D1D61JSD5W
 
 RESET = '\033[0m'
 
