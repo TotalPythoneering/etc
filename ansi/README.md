@@ -11,4 +11,12 @@ Today's console games & 'apps are a genre ... a handy go-to for educators? 🤠
 
 (* No pun intended)
 
-Video [is here](https://ko-fi.com/Post/Colorizing-Your-App--T-U-I-Style-C0C31JKS47).
+The Videos:
+
+[The Dump](https://ko-fi.com/Post/Colorizing-Your-App--T-U-I-Style-C0C31JKS47).
+
+[The Possibilities](https://youtube.com/shorts/EYGPHQ_qCVQ?si=v6zZm1SQuDMKF8t2).
+
+[The Idea](https://youtube.com/shorts/-2tGT4vkTRQ?si=7qeUUsgkrXN9PaDd).
+
+
