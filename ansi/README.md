@@ -99,10 +99,32 @@ where n is a number from 0 to 255.
     
     232–255: A grayscale ramp 
 
+#### Too Much!
+```
+RESET = '\033[0m'
+for esc in range(8), range(8,16), range(16,232), range(232,256):
+    for ss, num in enumerate(esc,1):
+        if ss % 25 == 0:
+            print()
+        print(f'\033[38;5;{num}m#{RESET}',end='')
+    print()
+```
+
 ### True color (24-bit)
 The most advanced terminals support 24-bit or
 "true color" using 16 million RGB values. 
 
-The sequence is ESC[38;2;r;g;b for foreground
+The sequence is ESC[38;2;r;g;b**m** for foreground
 and ESC[48;2;r;g;b**m** for background, with r, g,
 and b values ranging from 0 to 255. 
+
+#### Waaaay too much!!
+```
+RESET = '\033[0m'
+for esc in '\033[38;2;', '\033[48;2;':
+    for r in range(256):
+        for g in range(256):
+            for bs, b in enumerate(range(256),1):
+                print(f'{esc}{r};{g};{b}m#{RESET}',end='')
+            print()
+```
