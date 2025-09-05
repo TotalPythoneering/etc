@@ -59,6 +59,15 @@ attribute with the basic color codes.
 Some terminals, however, have separate
 codes for the bright colors.
 
+### Use the m, Luke
+```
+RESET = '\033[0m'
+for esc in range(30,38), range(40,48), range(90,98), range(100,108):
+    for num in esc:
+        print(f'\033[{num}m#{RESET}',end='')
+    print()
+```
+
 #### Bright Color
 Same "+10" strategy
 
@@ -79,7 +88,7 @@ Bright White,	97,	107
 ### 256-color (8-bit)
 Modern terminals can use an 8-bit palette
 to access 256 colors. The sequence is ESC[38;5;n
-for foreground and ESC[48;5;n for background,
+for foreground and ESC[48;5;n**m** for background,
 where n is a number from 0 to 255. 
 
     0–7: Standard system colors
@@ -95,5 +104,5 @@ The most advanced terminals support 24-bit or
 "true color" using 16 million RGB values. 
 
 The sequence is ESC[38;2;r;g;b for foreground
-and ESC[48;2;r;g;b for background, with r, g,
+and ESC[48;2;r;g;b**m** for background, with r, g,
 and b values ranging from 0 to 255. 
